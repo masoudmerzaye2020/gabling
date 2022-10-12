@@ -125,23 +125,27 @@ export const menulist = [
         },
         {
           title:"By Games",
-          url: "/",
+          url: "",
           submenu:[
             {
               title:"Slots",
-              url: "/",
+              url: "/real-money/slots",
             },
             {
               title:"Roulette",
-              url: "/",
+              url: "/real-money/roulette",
             },
             {
               title:"Blackjack",
-              url: "/",
+              url: "/real-money/blackjack",
             },
             {
               title:"Scratch Cards",
-              url: "/",
+              url: "/real-money/scratch-cards",
+            },
+            {
+              title:"Keno",
+              url: "/real-money/keno",
             },
           ]
         },
