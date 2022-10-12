@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Imagewithlink({src, title, link}) {
   return (
     <>
-    <div className='mx-auto'>
+    <div className='mx-auto w-1/2 md:w-1/3 lg:w-1/4 m'>
                     <ul className='flex flex-wrap w-full mx-auto justify-center'>
                         <li className='w-[150px] my-[20px] mx-[10px] '>
                             <div>

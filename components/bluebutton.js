@@ -6,9 +6,9 @@ export default function Bluebutton({link, title}) {
   return (
     <>
       <Link href={link}>
-      <div className='mx-auto w-full  md:w-1/2 p-2 '>
+      <div className='w-full md:w-1/2 p-4'>
         <div className='bg-[#06c] rounded-full flex py-[4px] px-[3px]  text-white hover:text-[#06c] hover:bg-white border-2 border-[#06c]  align-center'>
-          <div className='w-10/12 justify-center mx-auto text-sm md:text-lg pl-2'>
+          <div className='w-10/12 my-auto justify-center  text-sm md:text-lg pl-2'>
           {title}
           </div>
           <div className='w-2/12 flex my-auto justify-center  '>
